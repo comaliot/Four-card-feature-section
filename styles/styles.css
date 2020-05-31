@@ -109,6 +109,16 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  .type-container > h1 {
+    font-size: 2em;
+  }
+
+  .type-container > p {
+    max-width: 340px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
   .cards-container {
     flex-direction: column;
   }
